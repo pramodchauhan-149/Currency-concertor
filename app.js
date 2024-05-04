@@ -43,7 +43,7 @@ btn.addEventListener(("click"), async (evt) => {
     let data = await response.json();
     let finalData = data.data[toCurr.value].toFixed(2);
     console.log(finalData);
-    msg.innerText = `${amtVal} ${fromCurr.value} = ${amtVal * finalData} ${toCurr.value}`;
+    msg.innerText = `${amtVal} ${fromCurr.value} = ${(amtVal * finalData).toFixed(2)} ${toCurr.value}`;
 })
 
 

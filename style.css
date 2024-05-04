@@ -73,7 +73,7 @@ form input {
 }
 
 form button {
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     height: 3rem;
     background-color: #dd1174;
     color: white;
@@ -83,4 +83,9 @@ form button {
 
 .msg {
     margin-top: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
 }
